@@ -42,10 +42,7 @@ const getBooksPaginated = asyncHandler(async (req, res) => {
 
 const getBookDetails = asyncHandler(async (req, res) => {
   const { bookId } = req.params;
-  const book = await Item.findById(bookId).populate(
-    "comments.userId",
-    "Name",
-  );
+  const book = await Item.findById(bookId).populate("comments.userId", "name");
 
   if (!book) {
     res.status(404);

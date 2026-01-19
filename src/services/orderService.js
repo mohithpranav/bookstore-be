@@ -116,4 +116,19 @@ const confirmOrder = async (req, res) => {
   }
 };
 
-export { placeOrder, getOrder, confirmOrder };
+// Get all orders for a user
+const getAllOrders = async (req, res) => {
+  try {
+    const userId = req.user.id;
+    const orders = await Order.find({ userId })
+      .populate("items.itemId")
+      .populate("addressId")
+      .sort({ createdAt: -1 });
+    res.status(200).json({ success: true, orders });
+  } catch (err) {
+    console.error("Get all orders error:", err);
+    res.status(500).json({ message: "Something went wrong" });
+  }
+};
+
+export { placeOrder, getOrder, confirmOrder, getAllOrders };

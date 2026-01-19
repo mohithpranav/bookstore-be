@@ -16,7 +16,8 @@ import {
   clearCart,
   getCartItems,
 } from "../services/cartService.js";
-import { placeOrder, getOrder, confirmOrder } from "../services/orderService.js";
+import { placeOrder, getOrder, confirmOrder, getAllOrders } from "../services/orderService.js";
+import { canUserReview, addReview } from "../services/reviewService.js";
 import authMiddleware from "../middleware/authMiddleware.js";
 
 const router = Router();
@@ -50,5 +51,10 @@ router.delete("/cart", authMiddleware, clearCart);
 router.post("/order", authMiddleware, placeOrder);
 router.get("/order/:orderId", authMiddleware, getOrder);
 router.put("/order/:orderId/confirm", authMiddleware, confirmOrder);
+router.get("/orders", authMiddleware, getAllOrders);
+
+// review routes
+router.get("/books/:bookId/can-review", authMiddleware, canUserReview);
+router.post("/books/:bookId/review", authMiddleware, addReview);
 
 export default router;
