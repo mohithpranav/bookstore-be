@@ -1,0 +1,404 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "description": "A guide to writing clean, maintainable code that scales with teams and projects. Covers naming, functions, error handling, and formatting best practices.",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400",
+      "author": "Robert C. Martin",
+      "price": 3795
+    },
+    {
+      "id": 2,
+      "name": "The Pragmatic Programmer",
+      "description": "Timeless advice on becoming a better programmer through practical techniques, automation, and pragmatic decision-making.",
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400",
+      "author": "Andrew Hunt, David Thomas",
+      "price": 3264
+    },
+    {
+      "id": 3,
+      "name": "Introduction to Algorithms",
+      "description": "The definitive guide to algorithms covering sorting, searching, graph algorithms, dynamic programming, and computational geometry.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+      "author": "Thomas H. Cormen",
+      "price": 7567
+    },
+    {
+      "id": 4,
+      "name": "Designing Data-Intensive Applications",
+      "description": "Deep dive into building reliable, scalable, and maintainable data systems covering storage, retrieval, replication, and partitioning.",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400",
+      "author": "Martin Kleppmann",
+      "price": 4405
+    },
+    {
+      "id": 5,
+      "name": "Python Crash Course",
+      "description": "Hands-on introduction to Python covering basics, data visualization, and game development projects for beginners.",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400",
+      "author": "Eric Matthes",
+      "price": 2505
+    },
+    {
+      "id": 6,
+      "name": "Grokking Algorithms",
+      "description": "Illustrated guide to algorithms using simple drawings and plain English, perfect for visual learners.",
+      "image": "https://images.unsplash.com/photo-1551288049-b1f2e00c07cd?w=400",
+      "author": "Aditya Bhargava",
+      "price": 2977
+    },
+    {
+      "id": 7,
+      "name": "Head First Design Patterns",
+      "description": "Fun, visual guide to design patterns using real-world examples and puzzles to make complex concepts accessible.",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622b48b90?w=400",
+      "author": "Eric Freeman, Elisabeth Robson",
+      "price": 4211
+    },
+    {
+      "id": 8,
+      "name": "Effective Java",
+      "description": "Best practices for Java developers covering concurrency, generics, enums, and modern Java features.",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400",
+      "author": "Joshua Bloch",
+      "price": 4892
+    },
+    {
+      "id": 9,
+      "name": "System Design Interview - An Insider's Guide",
+      "description": "Comprehensive guide to system design interviews covering URL shortener, Netflix, WhatsApp, and more.",
+      "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400",
+      "author": "Alex Xu",
+      "price": 2873
+    },
+    {
+      "id": 10,
+      "name": "Cracking the Coding Interview",
+      "description": "150 programming interview questions with solutions covering arrays, strings, trees, graphs, and behavioral questions.",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400",
+      "author": "Gayle Laakmann McDowell",
+      "price": 3621
+    },
+    {
+      "id": 11,
+      "name": "You Don't Know JS (Book Series)",
+      "description": "In-depth exploration of JavaScript covering scope, closures, this keyword, objects, and prototypes.",
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400",
+      "author": "Kyle Simpson",
+      "price": 3802
+    },
+    {
+      "id": 12,
+      "name": "Refactoring: Improving the Design of Existing Code",
+      "description": "Practical techniques for improving code quality without changing external behavior.",
+      "image": "https://images.unsplash.com/photo-1514511038959-7fd59a5550c5?w=400",
+      "author": "Martin Fowler",
+      "price": 3331
+    },
+    {
+      "id": 13,
+      "name": "The Mythical Man-Month",
+      "description": "Classic essays on software engineering management and large-scale project challenges.",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400",
+      "author": "Frederick P. Brooks Jr.",
+      "price": 7409
+    },
+    {
+      "id": 14,
+      "name": "Domain-Driven Design",
+      "description": "Strategic patterns and tactics for complex enterprise software development.",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400",
+      "author": "Eric Evans",
+      "price": 4391
+    },
+    {
+      "id": 15,
+      "name": "Hands-On Machine Learning with Scikit-Learn",
+      "description": "Practical guide to machine learning with Python, Scikit-Learn, TensorFlow, and Keras.",
+      "image": "https://images.unsplash.com/photo-1533962424992-b01d401a9e92?w=400",
+      "author": "Aurélien Géron",
+      "price": 2534
+    },
+    {
+      "id": 16,
+      "name": "Artificial Intelligence: A Modern Approach",
+      "description": "Comprehensive textbook covering search algorithms, knowledge representation, machine learning, and robotics.",
+      "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400",
+      "author": "Stuart Russell, Peter Norvig",
+      "price": 2889
+    },
+    {
+      "id": 17,
+      "name": "Eloquent JavaScript",
+      "description": "Modern introduction to JavaScript covering functions, data structures, modules, and asynchronous programming.",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622b48b90?w=400",
+      "author": "Marijn Haverbeke",
+      "price": 4098
+    },
+    {
+      "id": 18,
+      "name": "Site Reliability Engineering",
+      "description": "Google's proven practices for reliable system design, monitoring, and incident response.",
+      "image": "https://images.unsplash.com/photo-1551288049-b1f2e00c07cd?w=400",
+      "author": "Betsy Beyer, Chris Jones",
+      "price": 4967
+    },
+    {
+      "id": 19,
+      "name": "Learning React",
+      "description": "Modern patterns and essential techniques for building professional React applications.",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400",
+      "author": "Alex Banks, Eve Porcello",
+      "price": 2887
+    },
+    {
+      "id": 20,
+      "name": "JavaScript: The Good Parts",
+      "description": "Extracts the language's positive features and avoids the bad ones to create professional code.",
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400",
+      "author": "Douglas Crockford",
+      "price": 3596
+    },
+    {
+      "id": 21,
+      "name": "Working Effectively with Legacy Code",
+      "description": "Strategies for improving and testing large, messy legacy codebases without breaking them.",
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400",
+      "author": "Michael C. Feathers",
+      "price": 3827
+    },
+    {
+      "id": 22,
+      "name": "Building Microservices",
+      "description": "Practical guide to microservices architecture covering deployment, testing, and monitoring.",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400",
+      "author": "Sam Newman",
+      "price": 3267
+    },
+    {
+      "id": 23,
+      "name": "Accelerate: The Science of Lean Software",
+      "description": "Research-driven insights on building and scaling high-performing technology organizations.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+      "author": "Nicole Forsgren, Jez Humble",
+      "price": 7446
+    },
+    {
+      "id": 24,
+      "name": "Release It!: Design and Deploy Production-Ready Software",
+      "description": "Stability patterns for production software covering circuit breakers, timeouts, and capacity planning.",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400",
+      "author": "Michael T. Nygard",
+      "price": 4469
+    },
+    {
+      "id": 25,
+      "name": "Don't Make Me Think",
+      "description": "Essential guide to web usability and user experience design principles.",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400",
+      "author": "Steve Krug",
+      "price": 2505
+    },
+    {
+      "id": 26,
+      "name": "The Lean Startup",
+      "description": "Methodology for developing businesses and products that customers love using validated learning.",
+      "image": "https://images.unsplash.com/photo-1551288049-b1f2e00c07cd?w=400",
+      "author": "Eric Ries",
+      "price": 2977
+    },
+    {
+      "id": 27,
+      "name": "Code Complete",
+      "description": "Encyclopedic knowledge covering every phase of software construction.",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400",
+      "author": "Steve McConnell",
+      "price": 4211
+    },
+    {
+      "id": 28,
+      "name": "Structure and Interpretation of Computer Programs",
+      "description": "Classic textbook teaching fundamental principles of computer science using Scheme.",
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400",
+      "author": "Harold Abelson, Gerald Jay Sussman",
+      "price": 4892
+    },
+    {
+      "id": 29,
+      "name": "Fluent Python",
+      "description": "Deep dive into Python 3 covering data model, functions, OOP, and concurrency.",
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400",
+      "author": "Luciano Ramalho",
+      "price": 2873
+    },
+    {
+      "id": 30,
+      "name": "Programming Rust",
+      "description": "Comprehensive guide to Rust covering ownership, borrowing, lifetimes, and unsafe code.",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400",
+      "author": "Jim Blandy, Jason Orendorff",
+      "price": 3621
+    },
+    {
+      "id": 31,
+      "name": "Modern JavaScript Applications",
+      "description": "Deep dive into modern ES6+ JavaScript features and application architecture.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+      "author": "Cyril Auburtin",
+      "price": 3802
+    },
+    {
+      "id": 32,
+      "name": "Growing Object-Oriented Software",
+      "description": "Guide to designing flexible, maintainable object-oriented software through testing.",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400",
+      "author": "Steve Freeman, Nat Pryce",
+      "price": 3331
+    },
+    {
+      "id": 33,
+      "name": "Continuous Delivery",
+      "description": "Practices and technical disciplines for achieving fast, reliable software releases.",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400",
+      "author": "Jez Humble, David Farley",
+      "price": 7409
+    },
+    {
+      "id": 34,
+      "name": "Test Driven Development: By Example",
+      "description": "Practical introduction to test-driven development using real-world examples.",
+      "image": "https://images.unsplash.com/photo-1551288049-b1f2e00c07cd?w=400",
+      "author": "Kent Beck",
+      "price": 4391
+    },
+    {
+      "id": 35,
+      "name": "The Phoenix Project",
+      "description": "Novel about IT, DevOps, and helping your business win through DevOps practices.",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400",
+      "author": "Gene Kim, Kevin Behr",
+      "price": 2534
+    },
+    {
+      "id": 36,
+      "name": "Database Internals",
+      "description": "Deep dive into storage engines, index structures, and transaction processing.",
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400",
+      "author": "Alex Petrov",
+      "price": 2889
+    },
+    {
+      "id": 37,
+      "name": "Kubernetes in Action",
+      "description": "Hands-on guide to deploying, managing, and scaling containerized applications.",
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400",
+      "author": "Marko Lukša",
+      "price": 4098
+    },
+    {
+      "id": 38,
+      "name": "Docker Deep Dive",
+      "description": "Complete guide to Docker covering containers, images, volumes, and orchestration.",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400",
+      "author": "Nigel Poulton",
+      "price": 4967
+    },
+    {
+      "id": 39,
+      "name": "Angular: Up and Running",
+      "description": "Learn to build production-ready Angular applications with TypeScript.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+      "author": "Shyam Seshadri",
+      "price": 2887
+    },
+    {
+      "id": 40,
+      "name": "Vue.js in Action",
+      "description": "Practical guide to building modern web applications with Vue.js framework.",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400",
+      "author": "Erik Hannan",
+      "price": 3596
+    },
+    {
+      "id": 41,
+      "name": "Node.js Design Patterns",
+      "description": "Advanced patterns for scalable Node.js applications including microservices.",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400",
+      "author": "Mario Casciaro",
+      "price": 3827
+    },
+    {
+      "id": 42,
+      "name": "GraphQL in Action",
+      "description": "Comprehensive guide to building GraphQL servers and clients with real-world examples.",
+      "image": "https://images.unsplash.com/photo-1551288049-b1f2e00c07cd?w=400",
+      "author": "Samer Buna",
+      "price": 3267
+    },
+    {
+      "id": 43,
+      "name": "Software Engineering at Google",
+      "description": "Insights into Google's engineering culture, practices, and tools for large-scale software.",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400",
+      "author": "Titus Winters",
+      "price": 7446
+    },
+    {
+      "id": 44,
+      "name": "Team Topologies",
+      "description": "Organizational patterns for high-performing software teams and delivery.",
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400",
+      "author": "Matthew Skelton, Manuel Pais",
+      "price": 4469
+    },
+    {
+      "id": 45,
+      "name": "The Manager's Path",
+      "description": "Guide for technical professionals transitioning into engineering management.",
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400",
+      "author": "Camille Fournier",
+      "price": 2505
+    },
+    {
+      "id": 46,
+      "name": "Staff Engineer",
+      "description": "Insights from senior technical leaders on growing as a staff-level engineer.",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400",
+      "author": "Will Larson",
+      "price": 2977
+    },
+    {
+      "id": 47,
+      "name": "Designing Data-Intensive Applications",
+      "description": "Advanced patterns for building reliable, scalable data systems at scale.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+      "author": "Martin Kleppmann",
+      "price": 4211
+    },
+    {
+      "id": 48,
+      "name": "Elements of Programming Interviews",
+      "description": "300+ coding problems with detailed solutions for technical interviews.",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400",
+      "author": "Adnan Aziz",
+      "price": 4892
+    },
+    {
+      "id": 49,
+      "name": "Programming Interviews Exposed",
+      "description": "Strategies and solutions for succeeding in technical interviews.",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400",
+      "author": "John Mongan",
+      "price": 2873
+    },
+    {
+      "id": 50,
+      "name": "Daily Coding Problem",
+      "description": "Curated collection of coding problems from top companies for interview prep.",
+      "image": "https://images.unsplash.com/photo-1551288049-b1f2e00c07cd?w=400",
+      "author": "Alex Miller",
+      "price": 3621
+    }
+  ]
+}
