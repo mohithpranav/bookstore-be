@@ -1,6 +1,8 @@
 import "dotenv/config";
 import mongoose from "mongoose";
 import app from "./app.js";
+// initialize redis client (side-effect import) so we see connection logs at startup
+import "./utils/cache.js";
 
 const connect = async () => {
   try {
